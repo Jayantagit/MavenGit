@@ -41,7 +41,7 @@ public class RegresstionTestCases
 		Logger=extent.startTest("Starting Test");
 		hp.clicMyAccountButton();
 		hp.verifyLaunchingOnRegistration();
-		Logger.log(LogStatus.INFO, "Browser Luanched successfully@");
+		Logger.log(LogStatus.INFO, "Browser Luanched successfullyD");
 		extent.endTest(Logger);
 		
 	}
