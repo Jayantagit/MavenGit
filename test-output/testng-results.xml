@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17213" started-at="2018-11-04T04:42:23Z" finished-at="2018-11-04T04:42:40Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17213" started-at="2018-11-04T04:42:23Z" finished-at="2018-11-04T04:42:40Z">
+      <class name="com.Automation.TestScripts.RegresstionTestCases">
+        <test-method status="PASS" signature="startreport()[pri:0, instance:com.Automation.TestScripts.RegresstionTestCases@6fdbe764]" name="startreport" is-config="true" duration-ms="4471" started-at="2018-11-04T04:42:23Z" finished-at="2018-11-04T04:42:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreport -->
+        <test-method status="PASS" signature="AppLaunch()[pri:0, instance:com.Automation.TestScripts.RegresstionTestCases@6fdbe764]" name="AppLaunch" duration-ms="7630" started-at="2018-11-04T04:42:28Z" finished-at="2018-11-04T04:42:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppLaunch -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Automation.TestScripts.RegresstionTestCases@6fdbe764]" name="getResult" is-config="true" duration-ms="466" started-at="2018-11-04T04:42:35Z" finished-at="2018-11-04T04:42:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AppLaunch status=SUCCESS method=RegresstionTestCases.AppLaunch()[pri:0, instance:com.Automation.TestScripts.RegresstionTestCases@6fdbe764] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endreport()[pri:0, instance:com.Automation.TestScripts.RegresstionTestCases@6fdbe764]" name="endreport" is-config="true" duration-ms="4531" started-at="2018-11-04T04:42:36Z" finished-at="2018-11-04T04:42:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+      </class> <!-- com.Automation.TestScripts.RegresstionTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
